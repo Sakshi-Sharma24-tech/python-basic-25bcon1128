@@ -1,37 +1,38 @@
-# Factorial Program
+# Python Programs Collection
 
-A simple beginner Python program that calculates
-the factorial of the fixed value 5 using a loop.
+A curated collection of core Python programs and data structure manipulations developed as part of academic coursework and practical assessments.
 
-## Program
+## Author
+* **Name:** Sakshi Sharma
+* **Department:** Computer Science & Engineering (B.Tech 2nd Year)
+* **University:** JECRC University
 
-The repository contains:
+## Included Programs
 
-- `factorial.py` — calculates the factorial of 5.
+### 1. Factorial Calculation (`factorial.py`)
+* Computes the factorial of a user-provided integer using an iterative approach.
+* Includes validation to handle negative input gracefully.
+* **Usage:**
+  ```bash
+  python factorial.py
+  ```
 
-## How It Works
+### 2. Fibonacci Series Generator (`fibonacci.py`)
+* Generates the Fibonacci sequence up to `n` terms.
+* Handles positive integer validation and edge cases.
+* **Usage:**
+  ```bash
+  python fibonacci.py
+  ```
 
-The variable `fact` starts at 1.
+### 3. Structure to Dictionary Conversion (`structure_to_dict.py`)
+* Implements robust conversions from structured data formats (lists of tuples, parallel keys and value arrays) to idiomatic Python key-value dictionaries.
+* Demonstrates practical data parsing and transformation techniques.
+* **Usage:**
+  ```bash
+  python structure_to_dict.py
+  ```
 
-A `for` loop runs from 1 through 5 and repeatedly
-multiplies the current value of `fact`.
-
-## Requirements
-
-- Python 3.x
-
-No external libraries are required.
-
-## Usage
-
-Run:
-
-python factorial.py
-
-## Output
-
-120
-
-## Example Calculation
-
-5 × 4 × 3 × 2 × 1 = 120
+## Technologies Used
+* **Language:** Python 3.x
+* **Core Concepts:** Iteration, Sequence Manipulation, Dictionaries, Functions, Error Handling
